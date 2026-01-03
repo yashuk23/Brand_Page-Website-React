@@ -1,0 +1,30 @@
+.ExploreCard {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 15px;
+    padding:25px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.ExploreCard img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+.buy-button {
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
